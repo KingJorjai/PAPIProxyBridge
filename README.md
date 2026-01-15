@@ -68,3 +68,19 @@ PAPIProxyBridge caches resolved requests for 30000 milliseconds (30 seconds), to
 
 There also exists `#formatComponentPlaceholders`. This method allows you to supply a string containing placeholders and receive an adventure component containing the formatted text, which may contain formatting and chat events.
 </details>
+
+## Multiversion Support
+
+PAPIProxyBridge supports multiple Minecraft versions using a multiversion build system. For information about our multiversion strategy and future plans:
+
+- **[Multiversion Strategy Summary](MULTIVERSION_STRATEGY.md)** - Quick overview and recommendations
+- **[Full Research Report](MULTIVERSION_RESEARCH.md)** - Comprehensive analysis of alternatives
+- **[Stonecutter Migration Guide](STONECUTTER_MIGRATION_GUIDE.md)** - Migration instructions
+
+Currently supported Fabric versions:
+- Minecraft 1.20.1 (Java 17+)
+- Minecraft 1.21.1 (Java 21+)
+- Minecraft 1.21.4 (Java 21+)
+- Minecraft 1.21.5 (Java 21+)
+- Minecraft 1.21.8 (Java 21+)
+</details>
