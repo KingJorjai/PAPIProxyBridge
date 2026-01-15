@@ -387,7 +387,7 @@ All recommended alternatives (Stonecutter, Architectury Loom) support:
 
 ## References
 
-- Essential Gradle Toolkit: https://github.com/EssentialGG/architectury-loom
+- Essential Gradle Toolkit: https://github.com/EssentialGG/essential-gradle-toolkit
 - Stonecutter: https://github.com/Stonecutterz/stonecutter-gradle
 - Architectury Loom: https://github.com/architectury/architectury-loom
 - Fabric Loom: https://github.com/FabricMC/fabric-loom

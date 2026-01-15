@@ -83,4 +83,3 @@ Currently supported Fabric versions:
 - Minecraft 1.21.4 (Java 21+)
 - Minecraft 1.21.5 (Java 21+)
 - Minecraft 1.21.8 (Java 21+)
-</details>
