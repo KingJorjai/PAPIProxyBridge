@@ -87,6 +87,8 @@ dependencies {
     minecraft "com.mojang:minecraft:${mcVersion}"
     mappings loom.officialMojangMappings()
     
+    // Note: These version properties should be defined in each version's gradle.properties
+    // See fabric/1.20.1/gradle.properties, fabric/1.21.8/gradle.properties, etc.
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
     modImplementation include("eu.pb4:placeholder-api:${fabric_placeholder_api_version}")
@@ -130,10 +132,10 @@ Current EGT structure:
 ```
 fabric/
   ├── 1.20.1/
-  │   ├── gradle.properties
+  │   ├── gradle.properties  # Version-specific properties (fabric_loader_version, etc.)
   │   └── build.gradle (symlink)
   ├── 1.21.1/
-  │   ├── gradle.properties
+  │   ├── gradle.properties  # Different version-specific properties
   │   └── build.gradle (symlink)
   └── src/
       └── main/
